@@ -1,3 +1,4 @@
+#!/bin/bash
 set -e
 
 repo_url="https://raw.githubusercontent.com/danyi/SteamOS.Mount-External-Drive/main"
