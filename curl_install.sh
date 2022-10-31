@@ -21,18 +21,6 @@ script_install_dir="/home/danyi/.local/share/scawp/SDMED"
 device_name="$(uname --nodename)"
 user="$(id -u danyi)"
 
-if [ "$device_name" != "steamdeck" ] || [ "$user" != "1000" ]; then
-  zenity --question --width=400 \
-  --text="This code has been written specifically for the Steam Deck with user Deck \
-  \nIt appears you are running on a different system/non-standard configuration. \
-  \nAre you sure you want to continue?"
-  if [ "$?" != 0 ]; then
-    #NOTE: This code will never be reached due to "set -e", the system will already exit for us but just incase keep this
-    echo "bye then! xxx"
-    exit 1;
-  fi
-fi
-
 function install_automount () {
   zenity --question --width=400 \
     --text="Read $repo_url/README.md before proceeding. \
