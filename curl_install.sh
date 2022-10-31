@@ -1,12 +1,3 @@
-#!/bin/bash
-#Steam Deck Mount External Drive by scawp
-#License: DBAD: https://github.com/scawp/Steam-Deck.Mount-External-Drive/blob/main/LICENSE.md
-#Source: https://github.com/scawp/Steam-Deck.Mount-External-Drive
-# Use at own Risk!
-
-#curl -sSL https://raw.githubusercontent.com/scawp/Steam-Deck.Mount-External-Drive/main/curl_install.sh | bash
-
-#stop running script if anything returns an error (non-zero exit )
 set -e
 
 repo_url="https://github.com/danyi/SteamOS.Mount-External-Drive/tree/main"
