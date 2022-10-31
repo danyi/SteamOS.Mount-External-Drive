@@ -1,6 +1,6 @@
 set -e
 
-repo_url="https://github.com/danyi/SteamOS.Mount-External-Drive/tree/main"
+repo_url="https://raw.githubusercontent.com/danyi/SteamOS.Mount-External-Drive/main"
 repo_lib_dir="$repo_url/lib"
 
 tmp_dir="/tmp/scawp.SDMED.install"
